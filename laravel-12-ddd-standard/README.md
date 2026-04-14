@@ -28,9 +28,6 @@ Recomendaciones
 - Asegura que `mkdocs.yml` lista las páginas reales dentro de `docs/` (index, arquitectura, setup).
 - Si el repo no contiene `catalog-info.yaml`, el wizard puede crear un Pull Request con un ejemplo para que el componente sea registrado una vez se mergee.
 
-Notas adicionales
-
-- Este estándar incorpora los artefactos del antiguo `laravel-api-standard` (examples/, systems/) y unifica la documentación. En caso de conflicto, prevalecen las reglas y contenidos definidos en este `laravel-12-ddd-standard`.
 
 Ejemplo y Scaffolder
 

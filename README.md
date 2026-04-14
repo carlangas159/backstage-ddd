@@ -10,7 +10,6 @@ Propósito
 Contenido principal
 
 - `laravel-12-ddd-standard/` — Estándar principal unificado (incluye código ejemplo, docs, Agents.md, Scaffolder templates y ejemplos). Es el componente canonico.
-- `laravel-api-standard/` — Antiguo estándar integrado; marcado como deprecado. Su contenido fue migrado a `laravel-12-ddd-standard`.
 
 Estructura destacada dentro de `laravel-12-ddd-standard`
 
@@ -49,17 +48,10 @@ Validaciones recomendadas antes de registrar
 - Verificar que `docs/index.md` y las páginas listadas en `mkdocs.yml` existan.
 - Comprobar que `Agents.md` y `docs/openapi.yaml` están presentes si dependes de generadores/IA que validen contratos.
 
-Política de fusión y eliminación del antiguo estándar
-
-- `laravel-api-standard` fue integrado en `laravel-12-ddd-standard`. Antes de eliminar la carpeta `laravel-api-standard`:
-  1. Revisar que todos los artefactos necesarios se encuentren en `laravel-12-ddd-standard`.
-  2. Actualizar referencias en documentación y CI/CD.
-  3. Abrir un PR que elimine `laravel-api-standard` y documente la migración (se sugiere incluir `DEPRECATED.md` como referencia en el commit previo a la eliminación).
 
 Contacto y mantenimiento
 
 - Owner del estándar: `user:cmrondon` (definido en `catalog-info.yaml`).
 - Para cambios en el estándar, crea un PR en este repositorio y referencia el cambio en `Agents.md` y TechDocs.
 
-Si quieres, puedo preparar automáticamente un archivo `REMOVE-LARAVEL-API-STANDARD.md` con la lista exacta de ficheros a eliminar y el comando `git rm -r` sugerido para que lo pegues en tu PR. ¿Deseas que lo genere?
 
