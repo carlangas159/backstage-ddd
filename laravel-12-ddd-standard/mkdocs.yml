@@ -4,6 +4,7 @@ nav:
   - Arquitectura: arquitectura.md
   - Setup: setup.md
   - Despliegue: despliegue.md
+  - DotNet: dotnet.md
 plugins:
   - techdocs-core
 

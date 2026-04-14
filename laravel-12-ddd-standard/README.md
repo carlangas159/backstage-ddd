@@ -10,6 +10,10 @@ Contenido principal
  - `examples/`: ejemplos de microservicios y adaptadores.
  - `systems/`: plantillas para el Scaffolder de Backstage.
 
+  Soportes multi-plataforma
+
+  - `dotnet-skeleton/` — skeleton C# que implementa las mismas capas y reglas para proyectos .NET. Ver `dotnet-skeleton/README.md` y `docs/dotnet.md` para guía de uso.
+
 Registrar en Elevate Latam Hub (Backstage)
 
 1. Registrar usando la URL del archivo `catalog-info.yaml` (recomendado):
