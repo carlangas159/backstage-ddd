@@ -1,0 +1,12 @@
+{
+  "name": "example/simple-service",
+  "autoload": {
+    "psr-4": {
+      "App\\Examples\\SimpleService\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
+

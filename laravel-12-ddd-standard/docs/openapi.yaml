@@ -1,0 +1,36 @@
+openapi: 3.0.0
+info:
+  title: Laravel 12 DDD Standard - Example API
+  version: 1.0.0
+paths:
+  /obras:
+    post:
+      summary: Crear una nueva Obra
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                titulo:
+                  type: string
+                descripcion:
+                  type: string
+                  nullable: true
+      responses:
+        '201':
+          description: Obra creada
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  titulo:
+                    type: string
+                  descripcion:
+                    type: string
+                    nullable: true
+

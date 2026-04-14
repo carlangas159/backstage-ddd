@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: laravel-12-ddd-standard
+  title: "Standard: Laravel 12 + DDD + Clean Architecture"
+  description: "Blueprint y estándar técnico para proyectos PHP basados en Laravel 12 que aplican DDD, Clean Architecture y un enfoque hexagonal. Contiene plantilla de código, documentación TechDocs y ejemplos de adaptación infra."
+  links:
+    - url: https://github.com/stefaninilatam/laravel-12-ddd-standard
+      title: Código fuente
+    - url: https://backstage.io/docs/features/software-catalog/
+      title: Backstage Software Catalog (ref)
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: stefaninilatam/laravel-12-ddd-standard
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:cmrondon
+  system: elevate-standards-system
+tags:
+  - php-8.4
+  - laravel-12
+  - laravel
+  - hexagonal-architecture
+  - standard
+  - ddd
+  - hexagonal
+  - architecture-standard
+

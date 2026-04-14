@@ -1,0 +1,9 @@
+site_name: Laravel 12 DDD Standard
+nav:
+  - Home: index.md
+  - Arquitectura: arquitectura.md
+  - Setup: setup.md
+  - Despliegue: despliegue.md
+plugins:
+  - techdocs-core
+

@@ -1,0 +1,28 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: laravel-service
+  title: Laravel Service (DDD)
+  description: Genera un microservicio Laravel siguiendo el estándar laravel-12-ddd-standard
+spec:
+  owner: user:cmrondon
+  type: service
+  parameters:
+    - title: Información del proyecto
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+  steps:
+    - id: fetch
+      name: Fetch template
+      action: fetch:template
+      input:
+        url: ./template
+    - id: print
+      name: Print done
+      action: core:print
+      input:
+        message: 'Plantilla generada'
+
