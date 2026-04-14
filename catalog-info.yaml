@@ -1,8 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 metadata:
-  name: php-standards-hub
+  name: backstage-ddd
+  annotations:
+    github.com/project-slug: carlangas159/backstage-ddd
 spec:
+  type: other
+  lifecycle: unknown
   targets:
     - ./laravel-12-ddd-standard/catalog-info.yaml
-
